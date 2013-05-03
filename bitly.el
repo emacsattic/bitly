@@ -33,6 +33,8 @@
 
 ;;; Code:
 
+(require 'thingatpt)
+
 (defgroup bitly nil
   "The bitly URL shortening service."
   :prefix "bitly-"
