@@ -69,6 +69,7 @@ Get your personal token here: https://bitly.com/a/oauth_apps"
              status-code
              (cdr (assq 'status_txt response))))))
 
+;;;###autoload
 (defun bitly-url-at-point ()
   "Replace the URL at point with a shortened one.
 
