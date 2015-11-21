@@ -34,6 +34,7 @@
 ;;; Code:
 
 (require 'thingatpt)
+(require 'json)
 
 (defgroup bitly nil
   "The bitly URL shortening service."
